@@ -1,17 +1,18 @@
 <div class="titulo">Desafio Equação</div>
 
 <?php
-$Rnumerador = (1-5)*(2-7);
-$Rdemominador = 2;
-$Rnormal = $Rnumerador / $Rdemominador;
-$Rexpo1 = $Rnormal ** 2;
-$Lnumerador = 6 * (3+2);
-$Lexpo = $Lnumerador ** 2;
-$Ldenominador = 3 * 2;
-$Lnormal = $Lexpo / $Ldenominador;
-$Ultra = $Lnormal - $Rexpo1;
-$ultraExpo = $Ultra ** 3;
-$FinalDenominador = 10 ** 3;
-$Total = $ultraExpo / $FinalDenominador;
 
-echo $Total;
+$numA = (6 * (3 + 2)) ** 2;
+$denA = 3 * 2;
+
+$numB = (1 - 5) * (2 - 7);
+$denB = 2;
+
+$superiorA = $numA / $denA;
+$superiorB = ($numB / $denB) ** 2;
+
+$superior = ($superiorA - $superiorB) ** 3;
+$inferior = 10 ** 3;
+
+$final = $superior / $inferior;
+echo "O resultado final é " . $final . ".";
