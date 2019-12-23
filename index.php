@@ -63,7 +63,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=tipos&file=desafio_precedencia">
+                            <a href="exercicio.php?dir=tipos&file=desafio_precedendia">
                                 Desafio Precedência
                             </a>
                         </li>
