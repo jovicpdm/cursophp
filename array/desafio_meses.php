@@ -1,7 +1,6 @@
 <div class="titulo">Desafio Meses</div>
 
 <?php
-
 $meses = array(
     1 => "Janeiro",
     "Fevereiro",
@@ -14,7 +13,7 @@ $meses = array(
     "Setembro",
     "Outubro",
     "Novembro",
-    "Dezembro",
+    "Dezembro"
 );
 
 print_r($meses);
