@@ -5,16 +5,15 @@ $idade = 70;
 $status;
 
 if($idade >= 18) {
-    $status = "Maior de Idade";
+    $status = 'Maior de idade';
 } else {
-    $status = "Menor de Idade";
+    $status = 'Menor de idade';
 }
 
 echo "$status<br>";
 
-$status = $idade >=18 ? 'Maior de Idade' : 'Menor de idade';
-
+$idade = 17;
+$status = $idade >= 18 ? 'Maior de idade' : 'Menor de idade';
 echo "$status<br>";
 
-$tipoMaiorIdade = $idade >= 65 ? 'Aposentado' : 'Maior de Idade';
-$status = $idade >= 18 ? $tipoMaiorIdade : 'Menor de Idade';
+$status = $idade >= 18 ? $idade >= 65 ? 'Aposentado' : 'Maior de idade' : 'Menor de idade';
