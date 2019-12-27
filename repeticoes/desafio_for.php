@@ -13,7 +13,7 @@ Usar o for...
 
 <?php
 $impressao = '';
-for($cont = 1; $cont <= 60; $cont++) {
+for($cont = 1; $cont <= 5; $cont++) {
     $impressao .= '#';
     echo "$impressao <br>";
 }
