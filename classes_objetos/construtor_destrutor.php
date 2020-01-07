@@ -1,32 +1,32 @@
 <div class="titulo">Construtor e Destrutor</div>
 
 <?php
-class Robo {
+class Pessoa {
     public $nome;
-    public $modelo;
+    public $idade;
 
-    function __construct($novoNome, $modelo = 18) {
-        echo 'Criando Android...! <br>';
+    function __construct($novoNome, $idade = 18) {
+        echo 'Construtor invocado! <br>';
         $this->nome = $novoNome;
-        $this->modelo = $modelo;
+        $this->idade = $idade;
     }
 
     function __destruct() {
-        echo 'Android Destruído com sucesso!<br>';
+        echo 'E morreu!<br>';
     }
 
     public function apresentar() {
-        echo "Android {$this->nome}{$this->modelo} criado com sucesso!!!!<br>";
+        echo "{$this->nome}, {$this->idade} anos<br>";
     }
 }
 
-// $Robo = new Robo(); // Problema
+// $pessoa = new Pessoa(); // Problema
 
-$RoboA = new Robo('TE', 40);
+$pessoaA = new Pessoa('Rebeca Maria', 40);
+$pessoaB = new Pessoa('João Pedro');
 
-$RoboA->apresentar();
-unset($RoboA);
+$pessoaA->apresentar();
+unset($pessoaA);
 
-$RoboB = new Robo('JVn');
-$RoboB->apresentar();
-$RoboB = null;
+$pessoaB->apresentar();
+$pessoaB = null;

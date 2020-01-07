@@ -1,25 +1,25 @@
-<div class="titulo">Classes</div>
+<div class="titulo">Primeira Classe</div>
 
 <?php
-class Warrior{
-    public $nome = '';
-    public $idade;
-    public $classe = '';
+class Cliente {
+    // atributos
+    public $nome = 'Anônimo';
+    public $idade = 18;
 
-    function exibir(){
-        return "Nome: {$this->nome} <br> Idade: {$this->idade} <br> Classe: {$this->classe}";
+    public function apresentar() {
+        return "Nome: {$this->nome} Idade: {$this->idade}";
     }
 }
 
-$w1 = new Warrior();
-$w1->nome = 'Kazemiro';
-$w1->idade = 16;
-$w1->classe = 'Paladino';
-echo $w1->exibir() . '<br>';
+$c1 = new Cliente();
+echo $c1->nome, '<br>';
+$c1->nome = 'Ana Silva';
+echo $c1->nome, '<br>';
+$c1->idade = 27.5;
 
-echo '<br>';
-$w2 = new Warrior;
-$w2->nome = 'Yuri';
-$w2->idade = 15;
-$w2->classe = 'Bárbaro';
-echo $w2->exibir() . '<br>';
+$c2 = new Cliente;
+$c2->nome = 'Gabriel';
+$c2->idade = 43;
+
+echo $c1->apresentar(), '<br>';
+echo $c2->apresentar();
