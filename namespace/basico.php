@@ -20,10 +20,11 @@ echo \outro_contexto\constante4 . '<br>';
 function soma($a, $b) {
     return $a + $b;
 }
-echo \contexto\soma(1, 2) . '<br>';
-echo soma(1,2) . '<br>';
 
-function strpos($str, $text){
+echo \contexto\soma(1, 2) . '<br>';
+echo soma(1, 2) . '<br>';
+
+function strpos($str, $text) {
     echo "Buscando o texto '{$text}' em '{$str}'<br>";
     return 1;
 }
