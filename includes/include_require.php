@@ -9,4 +9,4 @@ include('arquivo_inexistente.php');
 echo 'Usando require com arquivo inexistente...<br>';
 require('arquivo_inexistente.php');
 
-echo 'Não achou mesmo...';
+echo 'Não achou mesmo... <br>';
