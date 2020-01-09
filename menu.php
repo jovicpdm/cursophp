@@ -3,8 +3,13 @@
         <h3>13. API</h3>
         <ul>
             <li>
-                <a href="exercicio.php?dir=api&file=data_01">
+                <a href="exercicio.php?dir=api&file=datas_01">
                     Data #01
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=datas_02">
+                    Data #02
                 </a>
             </li>
         </ul>
