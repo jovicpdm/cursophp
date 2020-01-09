@@ -33,7 +33,7 @@ if(!$_SESSION['usuario']) {
         </div>
     </main>
     <footer class="rodape">
-        COD3R & ALUNOS © <?= date('D, d \d\e M \d\e Y'); ?>
+        COD3R & ALUNOS © <?= date('Y'); ?>
     </footer>
 </body>
 </html>

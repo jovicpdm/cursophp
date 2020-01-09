@@ -4,22 +4,37 @@
         <ul>
             <li>
                 <a href="exercicio.php?dir=api&file=datas_01">
-                    Data #01
+                    Datas #01
                 </a>
             </li>
             <li>
                 <a href="exercicio.php?dir=api&file=datas_02">
-                    Data #02
+                    Datas #02
                 </a>
             </li>
             <li>
                 <a href="exercicio.php?dir=api&file=escrever_arquivo">
-                    Escrever Arquivos
+                    Escrever Arquivo
                 </a>
             </li>
             <li>
                 <a href="exercicio.php?dir=api&file=ler_arquivo">
-                    Ler Arquivos
+                    Ler Arquivo
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=upload">
+                    Upload
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=download">
+                    Download
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=imagens">
+                    Imagens
                 </a>
             </li>
         </ul>
