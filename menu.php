@@ -8,7 +8,7 @@
                 </a>
             </li>
             <li>
-                <a href="exercicio.php?dir=sessao&file=gerenciamento_sessao">
+                <a href="exercicio.php?dir=sessao&file=gerenciando_sessao">
                     Gerenciando Sessão
                 </a>
             </li>

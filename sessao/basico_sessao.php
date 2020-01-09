@@ -13,10 +13,13 @@ if(!$_SESSION['nome']) {
 if(!$_SESSION['email']) {
     $_SESSION['email'] = 'gabriel@azmail.com';
 }
+
+print_r($_SESSION);
+
 ?>
 
 <p>
-    <a href="/sessao/basico_sessao_alterar.php">
+    <a href='/sessao/basico_sessao_alterar.php'>
         Alterar Sessão
     </a>
 </p>
