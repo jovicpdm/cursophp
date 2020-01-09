@@ -16,11 +16,6 @@ if($_POST['email']) {
             "email" => "outro@email.com.br",
             "senha" => "7654321",
         ],
-        [
-            "nome" => "João Victor Morais",
-            "email" => "jovic182015@gmail.com.br",
-            "senha" => "jovic123",
-        ],
     ];
 
     foreach($usuarios as $usuario) {
